@@ -1,0 +1,47 @@
+    1  git config --global -l
+    2  ls -al
+    3  cd work
+    4  ls -al
+    5  ls -al
+    6  cd Fork-220424/
+    7  ls -al
+    8  cd -
+    9  tree
+   10  cd Test-Git/
+   11  ls -al
+   12  cat file1.txt 
+   13  cd -
+   14  cd copy/
+   15  ls -al
+   16  cd ./
+   17  cd -
+   18  cd -
+   19  cd -
+   20  cd
+   21  cd work
+   22  cd git_intro/
+   23  ls -al
+   24  cd -
+   25  cd git_new/
+   26  ls -al
+   27  git status
+   28  git remote -v
+   29  cd -
+   30  git clone [200~git@github.com:klad77/test-34.git~
+   31  git clone git@github.com:klad77/test-34.git
+   32  ls -al
+   33  cd test-34
+   34  ls -al
+   35  git checkout -b feature
+   36  nano README.md 
+   37  nano .gitignore 
+   38  git add
+   39  git add .
+   40  git status
+   41  git commit -m "new branch"
+   42  git status
+   43  git push origin feature
+   44  git commit --amend
+   45  git checkout main
+   46  git merge feature
+   47  history > history.txt
